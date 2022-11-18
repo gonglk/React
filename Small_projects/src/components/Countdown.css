@@ -1,0 +1,17 @@
+.countContainer{
+    display: flex;
+    width: 600px;
+    margin: 20px auto;
+}
+
+.item{
+    position: relative;
+    align-items: center;
+    width:30%;
+    height: 200px;
+    justify-content: center;
+}
+.item span{
+    position:absolute;
+    top:50%;
+}
