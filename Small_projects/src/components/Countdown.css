@@ -12,6 +12,23 @@
     justify-content: center;
 }
 .item span{
-    position:absolute;
-    top:50%;
+    color: #111;
+	font-size: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    line-height: 30px;
+	margin: 10px;
+    padding-top: 10px;
+	position: relative;
+	width: 100px;
+	height: 100px;
+}
+
+.item span p{
+    color: #333;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
 }
